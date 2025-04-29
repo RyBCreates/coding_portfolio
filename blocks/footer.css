@@ -51,6 +51,19 @@
 
 .footer__list_type_navbar {
   flex-direction: column;
+  text-align: right;
+  background-color: black;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.footer__navbar-link {
+  color: rgb(118, 112, 112);
+  cursor: pointer;
+}
+
+.footer__navbar-link:hover {
+  color: rgb(237, 230, 230);
 }
 
 .footer__copyright {

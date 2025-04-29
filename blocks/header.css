@@ -8,11 +8,13 @@
 }
 
 .header__title {
-  padding: 0;
+  padding: 10px 40px;
   margin: 0;
   font-size: 60px;
   color: rgb(237, 230, 230);
   text-wrap: nowrap;
+  background-color: black;
+  border-radius: 20px;
 }
 
 .header__navbar {
