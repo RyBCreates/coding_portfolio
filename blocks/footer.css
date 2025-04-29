@@ -20,8 +20,6 @@
   display: flex;
   gap: 20px;
   padding: 20px;
-  /* justify-content: space-between;
-  align-items: center; */
   margin: 0;
 }
 
@@ -38,6 +36,11 @@
   color: inherit;
   text-decoration: none;
   cursor: pointer;
+  color: rgb(237, 230, 230);
+}
+
+.footer__social-link:hover {
+  color: rgb(118, 112, 112);
 }
 
 .footer__social-icon {
@@ -54,7 +57,7 @@
   text-align: right;
   background-color: black;
   border-radius: 20px;
-  width: 200px;
+  padding-left: 150px;
 }
 
 .footer__navbar-link {
