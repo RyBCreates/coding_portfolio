@@ -3,9 +3,10 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "../Header/Header";
 import Home from "../Home/Home";
-// import Projects from "./pages/Projects";
-// import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import Projects from "../Projects/Projects";
+import About from "../About/About";
+import Skills from "../Skills/Skills";
+import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 
 function App() {
@@ -16,10 +17,10 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* 
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
         </div>

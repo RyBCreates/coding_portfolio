@@ -14,3 +14,9 @@
 .navbar__link:hover {
   color: rgb(118, 112, 112);
 }
+
+@media screen and (max-width: 1260px) {
+  .navbar__links {
+    font-size: 28px;
+  }
+}

@@ -16,3 +16,9 @@
   background-color: black;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 1260px) {
+  .header__title {
+    font-size: 32px;
+  }
+}

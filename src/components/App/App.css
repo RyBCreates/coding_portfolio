@@ -1,17 +1,17 @@
 .app {
   min-width: 320px;
+  margin: 0 auto;
   font-size: 16px;
   font-family: "Poppins", Arial, sans-serif;
   background-color: rgb(237, 230, 230);
   line-height: 1;
 }
 
-.app__content {
-  margin: 0 auto;
+/* .app__content {
 }
 
 .app__section {
-}
+} */
 
 @media screen and (max-width: 1006px) {
 }

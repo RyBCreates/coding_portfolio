@@ -2,6 +2,7 @@ import "./Footer.css";
 import linkedIn from "../../assets/linkedin.svg";
 import github from "../../assets/gitHub-logo.png";
 import instagram from "../../assets/instagram-new.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -37,19 +38,29 @@ function Footer() {
         </ul>
         <ul className="footer__list footer__list_type_navbar">
           <li className="footer__navbar-link">
-            <a className="footer__navbar-link_type_home">Home</a>
+            <Link to="/" className="footer__navbar-link_type_home">
+              Home
+            </Link>
           </li>
           <li className="footer__navbar-link">
-            <a className="footer__navbar-link_type_about">About</a>
+            <Link to="/about" className="footer__navbar-link_type_about">
+              About
+            </Link>
           </li>
           <li className="footer__navbar-link">
-            <a className="footer__navbar-link_type_skills">Skills</a>
+            <Link to="/skills" className="footer__navbar-link_type_skills">
+              Skills
+            </Link>
           </li>
           <li className="footer__navbar-link">
-            <a className="footer__navbar-link_type_works">Works</a>
+            <Link to="/projects" className="footer__navbar-link_type_projects">
+              Projects
+            </Link>
           </li>
           <li className="footer__navbar-link">
-            <a className="footer__navbar-link_type_contact">Contact</a>
+            <Link to="/contact" className="footer__navbar-link_type_contact">
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
