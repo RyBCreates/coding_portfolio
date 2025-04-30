@@ -1,18 +1,25 @@
 {
+  "name": "coding_portfolio",
+  "version": "1.0.0",
+  "description": "This is a portfolio website for Ryan Bommarito.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.5.3",
     "react-scripts": "^5.0.1"
   },
-  "name": "coding_portfolio",
-  "version": "1.0.0",
-  "description": "This is a portfolio website for Ryan Bommarito.",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.3.3"
   },
   "repository": {
     "type": "git",
@@ -24,9 +31,5 @@
   "bugs": {
     "url": "https://github.com/Bombingrun3/coding_portfolio/issues"
   },
-  "homepage": "https://github.com/Bombingrun3/coding_portfolio#readme",
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.4.1",
-    "vite": "^6.3.3"
-  }
+  "homepage": "https://github.com/Bombingrun3/coding_portfolio#readme"
 }

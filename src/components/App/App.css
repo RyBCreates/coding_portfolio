@@ -10,8 +10,7 @@
   margin: 0 auto;
 }
 
-.page__section {
-  margin: 0 auto;
+.app__section {
 }
 
 @media screen and (max-width: 1006px) {

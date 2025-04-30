@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 
 function Header() {
   return (
-    <header className="header page__section">
+    <header className="header app__section">
       <h1 className="header__title">RyBCreates</h1>
       <Navbar />
     </header>

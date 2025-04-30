@@ -5,7 +5,7 @@ import instagram from "../../assets/instagram-new.png";
 
 function Footer() {
   return (
-    <footer className="footer page__section">
+    <footer className="footer app__section">
       <div className="footer__content">
         <ul className="footer__list footer__list_type_socials">
           <li className="footer__list-item">

@@ -2,7 +2,7 @@
   font-family: "NerkoOne";
   font-style: Normal;
   font-weight: 400;
-  src: url(../vendor/fonts/NerkoOne-Regular.ttf) format(truetype);
+  src: url(./fonts/NerkoOne-Regular.ttf) format(truetype);
 }
 
 /* @font-face {
