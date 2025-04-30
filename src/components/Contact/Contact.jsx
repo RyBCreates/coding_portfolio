@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <h1 className="contact__title">Contact Me</h1>
-      <p>Seriously, I need friends</p>
+      <p>Here is my phone number: (123) 456 - 7890</p>
     </div>
   );
 }

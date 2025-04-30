@@ -69,6 +69,28 @@
   color: rgb(237, 230, 230);
 }
 
+.footer__navbar-link_type_home {
+  color: rgb(237, 230, 230);
+  text-decoration: none;
+}
+
+.footer__navbar-link_type_about {
+  color: rgb(237, 230, 230);
+  text-decoration: none;
+}
+.footer__navbar-link_type_skills {
+  color: rgb(237, 230, 230);
+  text-decoration: none;
+}
+.footer__navbar-link_type_projects {
+  color: rgb(237, 230, 230);
+  text-decoration: none;
+}
+.footer__navbar-link_type_contact {
+  color: rgb(237, 230, 230);
+  text-decoration: none;
+}
+
 .footer__copyright {
   font-size: 10px;
   margin: 0;
