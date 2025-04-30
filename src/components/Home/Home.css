@@ -1,4 +1,4 @@
-.content {
+.home {
   padding: 120px;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -6,31 +6,31 @@
   gap: 20px;
 }
 
-.content__text {
+.home__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.content__name {
+.home__name {
   font-size: 120px;
   margin: 0 0 12px 0;
   font-weight: 400;
   font-family: "NerkoOne";
 }
 
-.content__intro {
+.home__intro {
   font-size: 80px;
   font-family: "Arial";
 }
 
-.content__description {
+.home__description {
   font-size: 80px;
   margin: 40px 0 50px;
   text-align: center;
 }
 
-.content__contact-button {
+.home__contact-button {
   justify-content: center;
   padding: 30px;
   font-size: 60px;
@@ -42,11 +42,11 @@
   margin: 120px auto 0;
 }
 
-.content__contact-button:hover {
+.home__contact-button:hover {
   background-color: rgb(118, 112, 112);
 }
 
-.content__image {
+.home__image {
   width: 600px;
   border-radius: 10px 20px 30px 40px;
 }

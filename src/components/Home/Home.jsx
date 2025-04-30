@@ -1,14 +1,19 @@
-<main class="content page__section">
-  <div class="content__text">
-    <h2 class="content__name">
-      <span class="content__intro">My name is: </span>Ryan
-    </h2>
-    <p class="content__description">Web Developer</p>
-    <button class="content__contact-button">Hire Me!</button>
-  </div>
-  <img
-    src="./images/Ryan-Profile.jpg"
-    alt="Ryan Bommarito"
-    class="content__image"
-  />
-</main>;
+import "./Home.css";
+import headshot from "../../assets/Ryan-Profile.jpg";
+
+function Home() {
+  return (
+    <main className="home page__section">
+      <div className="home__text">
+        <h2 className="home__name">
+          <span className="home__intro">My name is: </span>Ryan
+        </h2>
+        <p className="home__description">Web Developer</p>
+        <button className="home__contact-button">Hire Me!</button>
+      </div>
+      <img src={headshot} alt="Ryan Bommarito" className="home__image" />
+    </main>
+  );
+}
+
+export default Home;

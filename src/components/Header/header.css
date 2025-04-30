@@ -16,23 +16,3 @@
   background-color: black;
   border-radius: 20px;
 }
-
-.header__navbar {
-  display: flex;
-}
-
-.header__navbar-links {
-  color: rgb(237, 230, 230);
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  cursor: pointer;
-  font-size: 28px;
-}
-
-/* .header__navbar-link {
-} */
-
-.header__navbar-link:hover {
-  color: rgb(118, 112, 112);
-}

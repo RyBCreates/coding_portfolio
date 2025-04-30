@@ -1,4 +1,4 @@
-.page {
+.app {
   min-width: 320px;
   font-size: 16px;
   font-family: "Poppins", Arial, sans-serif;
@@ -6,13 +6,13 @@
   line-height: 1;
 }
 
+.app__content {
+  margin: 0 auto;
+}
+
 .page__section {
-  /* max-width: 1280px; */
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1006px) {
-  .page__section {
-    max-width: 288px;
-  }
 }
