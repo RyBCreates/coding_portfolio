@@ -1,4 +1,11 @@
 @font-face {
+  font-family: "NerkoOne";
+  font-style: Normal;
+  font-weight: 400;
+  src: url(../vendor/fonts/NerkoOne-Regular.ttf) format(truetype);
+}
+
+/* @font-face {
   font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
@@ -24,4 +31,4 @@
   font-style: Medium;
   font-weight: 500;
   src: url(../vendor/fonts/Poppins/Poppins-Medium.ttf) format(truetype);
-}
+} */
