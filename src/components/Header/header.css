@@ -8,8 +8,8 @@
 }
 
 .header__title {
-  padding: 10px 40px;
-  margin: 0;
+  padding: 40px 14px;
+  margin: 10px;
   font-size: 60px;
   color: rgb(237, 230, 230);
   text-wrap: nowrap;
@@ -17,7 +17,7 @@
   border-radius: 20px;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1300px) {
   .header__title {
     font-size: 32px;
   }

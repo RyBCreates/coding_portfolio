@@ -9,7 +9,8 @@
   gap: 30px;
   cursor: pointer;
   font-size: 43px;
-  margin: 38px;
+  margin: 38px 38px 18px;
+  padding: 45px;
 }
 
 .navbar__link:hover {
@@ -24,6 +25,7 @@
 
 .navbar__link-home:active,
 .navbar__link-home:focus {
+  color: black;
   border-bottom: 5px solid black;
 }
 
@@ -34,6 +36,7 @@
 .navbar__link-about:active,
 .navbar__link-about:focus {
   border-bottom: 5px solid black;
+  color: black;
 }
 
 .navbar__link-skills {
@@ -42,6 +45,7 @@
 }
 .navbar__link-skills:active,
 .navbar__link-skills:focus {
+  color: black;
   border-bottom: 5px solid black;
 }
 
@@ -51,6 +55,7 @@
 }
 .navbar__link-projects:active,
 .navbar__link-projects:focus {
+  color: black;
   border-bottom: 5px solid black;
 }
 
@@ -61,9 +66,10 @@
 
 .navbar__link-contact:active,
 .navbar__link-contact:focus {
+  color: black;
   border-bottom: 5px solid black;
 }
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1300px) {
   .navbar__links {
     font-size: 28px;
   }
