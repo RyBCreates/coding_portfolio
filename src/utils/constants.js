@@ -4,6 +4,7 @@ export const jobDescriptions = [
   "React Enthusiast",
   "MongoDB + Express Dev",
   "Frontend Wizard",
-  "Node.js Backend Developer",
+  "Node.js",
+  "Backend Developer",
   "UI/UX Improver",
 ];
