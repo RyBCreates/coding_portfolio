@@ -10,7 +10,12 @@ function Footer() {
       <div className="footer__content">
         <ul className="footer__list footer__list_type_socials">
           <li className="footer__list-item">
-            <a href="#" className="footer__social-link">
+            <a
+              href="https://www.linkedin.com/in/ryan-bommarito/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer__social-link"
+            >
               <img
                 src={linkedIn}
                 alt="LinkedIn"
@@ -20,13 +25,23 @@ function Footer() {
             </a>
           </li>
           <li className="footer__list-item">
-            <a href="#" className="footer__social-link">
+            <a
+              href="https://github.com/RyBCreates"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer__social-link"
+            >
               <img src={github} alt="Github" className="footer__social-icon" />
               Github
             </a>
           </li>
           <li className="footer__list-item">
-            <a href="#" className="footer__social-link">
+            <a
+              href="https://www.instagram.com/ryan_bommarito/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer__social-link"
+            >
               <img
                 src={instagram}
                 alt="Instagram"

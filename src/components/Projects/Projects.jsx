@@ -11,35 +11,10 @@ function Projects() {
     <section className="projects app__section">
       <h2 className="projects__title">Recent Projects</h2>
       <ul className="projects__gallery">
+        {/* Itinerarium */}
         <li className="projects__card">
           <a
-            href="https://www.wtwr.medialoverz.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="projects__card-link"
-          >
-            <div className="projects__image-wrapper">
-              <img
-                className="projects__card-image"
-                alt="Food Finder"
-                src={FoodFinder}
-              ></img>
-            </div>
-            <div className="projects__card-info">
-              <h3 className="projects__card-title">
-                Food Finder (Coming Soon)
-              </h3>
-              <p className="projects__card-description">
-                Find Recipes and add Ingredients to a shopping list, in future
-                iterations, users will be able to order the ingredients straight
-                to their doorstep.
-              </p>
-            </div>
-          </a>
-        </li>
-        <li className="projects__card">
-          <a
-            href="https://www.wtwr.medialoverz.com"
+            href="https://rybcreates.github.io/june_code_jam/?#/"
             target="_blank"
             rel="noopener noreferrer"
             className="projects__card-link"
@@ -53,18 +28,49 @@ function Projects() {
             </div>
             <div className="projects__card-info">
               <h3 className="projects__card-title">
-                Itinerarium (Coming Soon)
+                Itinerarium (In Development)
               </h3>
               <p className="projects__card-description">
-                An app that allows users to collaborate with other users to
-                create dynamic trip itineraries.
+                A collaborative travel planner that lets users create and share
+                interactive trip itineraries in real time. Designed for group
+                travel, with editable schedules and event-based timelines.
               </p>
             </div>
           </a>
         </li>
+
+        {/* Food Finder */}
+        <li className="projects__card projects__card--disabled">
+          {/* <a
+            href="https://www.wtwr.medialoverz.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="projects__card-link"
+          > */}
+          <div className="projects__image-wrapper">
+            <img
+              className="projects__card-image"
+              alt="Food Finder"
+              src={FoodFinder}
+            ></img>
+          </div>
+          <div className="projects__card-info">
+            <h3 className="projects__card-title">
+              Food Finder (In Development)
+            </h3>
+            <p className="projects__card-description">
+              A recipe discovery app where users can search meals and add
+              ingredients to a shopping list. Future releases will integrate
+              online grocery delivery for a seamless meal-planning experience.
+            </p>
+          </div>
+          {/* </a> */}
+        </li>
+
+        {/* EcoLink */}
         <li className="projects__card">
           <a
-            href="https://www.wtwr.medialoverz.com"
+            href="* https://eduenez33.github.io/March-Code-jam/#ecosquad"
             target="_blank"
             rel="noopener noreferrer"
             className="projects__card-link"
@@ -86,30 +92,30 @@ function Projects() {
             </div>
           </a>
         </li>
-        <li className="projects__card">
-          <a
+
+        {/* Spots */}
+        <li className="projects__card projects__card--disabled">
+          {/* <a
             href="https://www.wtwr.medialoverz.com"
             target="_blank"
             rel="noopener noreferrer"
             className="projects__card-link"
-          >
-            <div className="projects__image-wrapper">
-              <img
-                className="projects__card-image"
-                alt="Spots"
-                src={Spots}
-              ></img>
-            </div>
-            <div className="projects__card-info">
-              <h3 className="projects__card-title">Spots</h3>
-              <p className="projects__card-description">
-                A social media-style app where users can create posts with
-                images and captions, like posts, and delete their own. Fully
-                responsive and styled for mobile-first usability.
-              </p>
-            </div>
-          </a>
+          > */}
+          <div className="projects__image-wrapper">
+            <img className="projects__card-image" alt="Spots" src={Spots}></img>
+          </div>
+          <div className="projects__card-info">
+            <h3 className="projects__card-title">Spots</h3>
+            <p className="projects__card-description">
+              A lightweight social app for sharing location-based content. Users
+              can create, like, and delete posts with images and captions.
+              Designed mobile-first with a simple, clean UI.{" "}
+            </p>
+          </div>
+          {/* </a> */}
         </li>
+
+        {/* WTWR */}
         <li className="projects__card">
           <a
             href="https://www.wtwr.medialoverz.com"
@@ -127,39 +133,40 @@ function Projects() {
             <div className="projects__card-info">
               <h3 className="projects__card-title">WTWR</h3>
               <p className="projects__card-description">
-                A weather-based clothing recommendation app built in React. It
-                uses a weather API to suggest clothing based on current
-                temperature conditions, promoting smart and comfortable
-                dressing.
+                A weather-based clothing recommendation app. Pulls real-time
+                weather data and recommends outfits tailored to the current
+                conditions. Built with React and styled-components.
               </p>
             </div>
           </a>
         </li>
-        <li className="projects__card">
-          <a
+
+        {/* Journal App */}
+        <li className="projects__card projects__card--disabled">
+          {/* <a
             href="https://www.wtwr.medialoverz.com"
             target="_blank"
             rel="noopener noreferrer"
             className="projects__card-link"
-          >
-            <div className="projects__image-wrapper">
-              <img
-                className="projects__card-image"
-                alt="My Growth Journal"
-                src={JournalApp}
-              ></img>
-            </div>
-            <div className="projects__card-info">
-              <h3 className="projects__card-title">
-                My Growth Journal (Coming Soon)
-              </h3>
-              <p className="projects__card-description">
-                A journaling app that presents prompts and allows users to write
-                and save entries locally. Built for personal growth and
-                self-reflection, with a minimal and focused interface.
-              </p>
-            </div>
-          </a>
+          > */}
+          <div className="projects__image-wrapper">
+            <img
+              className="projects__card-image"
+              alt="My Growth Journal"
+              src={JournalApp}
+            ></img>
+          </div>
+          <div className="projects__card-info">
+            <h3 className="projects__card-title">
+              My Growth Journal (In Development)
+            </h3>
+            <p className="projects__card-description">
+              A digital journaling tool with guided prompts for reflection and
+              self-growth. Entries are saved locally for privacy. Designed for
+              focus, mindfulness, and a clutter-free writing experience.{" "}
+            </p>
+          </div>
+          {/* </a> */}
         </li>
       </ul>
     </section>
