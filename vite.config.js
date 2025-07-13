@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/coding_portfolio",
+  base: "/coding_portfolio/",
   plugins: [react()],
   server: {
     port: 1118,

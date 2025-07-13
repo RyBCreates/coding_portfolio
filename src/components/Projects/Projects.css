@@ -32,6 +32,7 @@
 
 .projects__card-image {
   width: 360px;
+  object-fit: contain;
 }
 
 .projects__card-info {

@@ -13,6 +13,10 @@
   padding: 45px;
 }
 
+.navbar__link {
+  padding-bottom: 20px;
+}
+
 .navbar__link:hover {
   color: rgb(118, 112, 112);
 }
@@ -20,7 +24,6 @@
 .navbar__link-home {
   color: rgb(237, 230, 230);
   text-decoration: none;
-  padding-bottom: 20px;
 }
 
 .navbar__link-home:active,
