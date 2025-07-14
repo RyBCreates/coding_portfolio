@@ -104,4 +104,8 @@
     gap: 20px;
     padding: 20px;
   }
+
+  .footer__copyright {
+    padding-top: 10px;
+  }
 }

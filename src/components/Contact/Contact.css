@@ -42,3 +42,11 @@
   cursor: pointer;
   margin: auto auto 0;
 }
+
+@media screen and (max-width: 768px) {
+  .contact__submit-button {
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+}
