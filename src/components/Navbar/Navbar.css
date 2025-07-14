@@ -1,79 +1,58 @@
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: relative;
+  color: white;
+  padding: 0 20px;
+}
+
+.navbar__hamburger {
+  display: none;
 }
 
 .navbar__links {
-  color: rgb(237, 230, 230);
-  list-style: none;
   display: flex;
   gap: 30px;
-  cursor: pointer;
-  font-size: 43px;
-  margin: 38px 0px 18px;
-  padding: 45px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
 }
 
 .navbar__link {
-  padding-bottom: 20px;
-}
-
-.navbar__link:hover {
-  color: rgb(118, 112, 112);
-}
-
-.navbar__link-home {
-  color: rgb(237, 230, 230);
   text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
 }
 
-.navbar__link-home:active,
-.navbar__link-home:focus {
-  color: black;
-  border-bottom: 5px solid black;
+.navbar__link.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
 }
 
-.navbar__link-about {
-  color: rgb(237, 230, 230);
-  text-decoration: none;
-}
-.navbar__link-about:active,
-.navbar__link-about:focus {
-  border-bottom: 5px solid black;
-  color: black;
-}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0;
+  }
 
-.navbar__link-skills {
-  color: rgb(237, 230, 230);
-  text-decoration: none;
-}
-.navbar__link-skills:active,
-.navbar__link-skills:focus {
-  color: black;
-  border-bottom: 5px solid black;
-}
+  .navbar__hamburger {
+    display: block;
+  }
 
-.navbar__link-projects {
-  color: rgb(237, 230, 230);
-  text-decoration: none;
-}
-.navbar__link-projects:active,
-.navbar__link-projects:focus {
-  color: black;
-  border-bottom: 5px solid black;
-}
-
-.navbar__link-contact {
-  color: rgb(237, 230, 230);
-  text-decoration: none;
-}
-
-.navbar__link-contact:active,
-.navbar__link-contact:focus {
-  color: black;
-  border-bottom: 5px solid black;
-}
-@media screen and (max-width: 1300px) {
   .navbar__links {
-    font-size: 28px;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    display: none;
+  }
+
+  .navbar__links.active {
+    display: flex;
+    z-index: 100;
+    margin: 0;
   }
 }
