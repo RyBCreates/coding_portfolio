@@ -17,6 +17,10 @@
   width: 75px;
 }
 
+.navbar__hamburger-icon:hover {
+  cursor: pointer;
+}
+
 .navbar__links {
   display: flex;
   gap: 30px;
@@ -54,6 +58,7 @@
     background-color: black;
     display: none;
     padding: 10px;
+    border-radius: 0 0 5px 5px;
   }
 
   .navbar__links.active {

@@ -96,3 +96,12 @@
   margin: 0;
   color: rgb(118, 112, 112);
 }
+
+@media (max-width: 768px) {
+  .footer__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+  }
+}
