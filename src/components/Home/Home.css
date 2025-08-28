@@ -52,6 +52,7 @@
 .home__image {
   width: 400px;
   border-radius: 40px;
+  object-fit: cover;
 }
 
 @media (max-width: 1300px) {
