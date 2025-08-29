@@ -45,11 +45,11 @@ function Contact() {
         </label>
         <label className="contact__form-label">
           Message (optional)
-          <input
+          <textarea
             className="contact__form-input"
             type="text"
             placeholder="Type your message here"
-          ></input>
+          ></textarea>
         </label>
         <button className="contact__submit-button">Submit</button>
       </form>
