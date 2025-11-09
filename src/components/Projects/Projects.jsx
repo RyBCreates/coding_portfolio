@@ -6,6 +6,8 @@ import Spots from "../../assets/Project-Screenshots/Spots-home.png";
 import JournalApp from "../../assets/Project-Screenshots/Journal-App-home.png";
 import WTWR from "../../assets/Project-Screenshots/WTWR-profile.png";
 
+const GradientFallback = () => <div className="projects__fallback-image"></div>;
+
 function Projects() {
   return (
     <section className="projects app__section">
@@ -24,7 +26,7 @@ function Projects() {
                 className="projects__card-image"
                 alt="Itinerarium"
                 src={Itinerarium}
-              ></img>
+              />
             </div>
             <div className="projects__card-info">
               <h3 className="projects__card-title">
@@ -41,18 +43,12 @@ function Projects() {
 
         {/* Food Finder */}
         <li className="projects__card projects__card--disabled">
-          {/* <a
-            href="https://www.wtwr.medialoverz.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="projects__card-link"
-          > */}
           <div className="projects__image-wrapper">
             <img
               className="projects__card-image"
               alt="Food Finder"
               src={FoodFinder}
-            ></img>
+            />
           </div>
           <div className="projects__card-info">
             <h3 className="projects__card-title">
@@ -64,13 +60,12 @@ function Projects() {
               online grocery delivery for a seamless meal-planning experience.
             </p>
           </div>
-          {/* </a> */}
         </li>
 
         {/* EcoLink */}
         <li className="projects__card">
           <a
-            href="* https://eduenez33.github.io/March-Code-jam/#ecosquad"
+            href="https://eduenez33.github.io/March-Code-jam/#ecosquad"
             target="_blank"
             rel="noopener noreferrer"
             className="projects__card-link"
@@ -80,7 +75,7 @@ function Projects() {
                 className="projects__card-image"
                 alt="EcoLink"
                 src={EcoLink}
-              ></img>
+              />
             </div>
             <div className="projects__card-info">
               <h3 className="projects__card-title">EcoLink</h3>
@@ -93,26 +88,64 @@ function Projects() {
           </a>
         </li>
 
+        {/* OC Wildlands */}
+        <li className="projects__card">
+          <div className="projects__image-wrapper">
+            <GradientFallback />
+          </div>
+          <div className="projects__card-info">
+            <h3 className="projects__card-title">OC Wildlands</h3>
+            <p className="projects__card-description">
+              Externship project for a wildfire prevention nonprofit. Built with
+              TypeScript, React, and KeystoneJS connected to a PostgreSQL
+              database. Used Docker for development and deployment consistency.
+            </p>
+          </div>
+        </li>
+
+        {/* Decluttr */}
+        <li className="projects__card">
+          <div className="projects__image-wrapper">
+            <GradientFallback />
+          </div>
+          <div className="projects__card-info">
+            <h3 className="projects__card-title">Decluttr</h3>
+            <p className="projects__card-description">
+              A gamified cleaning app where users level up by completing tasks
+              and earning gems. Built with the MERN stack and designed with
+              gamification-driven UX principles.
+            </p>
+          </div>
+        </li>
+
+        {/* E-Commerce Store */}
+        <li className="projects__card">
+          <div className="projects__image-wrapper">
+            <GradientFallback />
+          </div>
+          <div className="projects__card-info">
+            <h3 className="projects__card-title">E-Commerce Store</h3>
+            <p className="projects__card-description">
+              Fullstack online store built with the MERN stack and integrated
+              Stripe API for real-time payment handling and order validation.
+              Includes an admin dashboard for managing products and orders.
+            </p>
+          </div>
+        </li>
+
         {/* Spots */}
         <li className="projects__card projects__card--disabled">
-          {/* <a
-            href="https://www.wtwr.medialoverz.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="projects__card-link"
-          > */}
           <div className="projects__image-wrapper">
-            <img className="projects__card-image" alt="Spots" src={Spots}></img>
+            <img className="projects__card-image" alt="Spots" src={Spots} />
           </div>
           <div className="projects__card-info">
             <h3 className="projects__card-title">Spots</h3>
             <p className="projects__card-description">
               A lightweight social app for sharing location-based content. Users
               can create, like, and delete posts with images and captions.
-              Designed mobile-first with a simple, clean UI.{" "}
+              Designed mobile-first with a simple, clean UI.
             </p>
           </div>
-          {/* </a> */}
         </li>
 
         {/* WTWR */}
@@ -128,12 +161,12 @@ function Projects() {
                 className="projects__card-image"
                 alt="What To Wear App"
                 src={WTWR}
-              ></img>
+              />
             </div>
             <div className="projects__card-info">
               <h3 className="projects__card-title">WTWR</h3>
               <p className="projects__card-description">
-                A weather-based clothing recommendation app. Pulls real-time
+                A weather-based clothing recommendation app that pulls live
                 weather data and recommends outfits tailored to the current
                 conditions. Built with React and styled-components.
               </p>
@@ -143,18 +176,12 @@ function Projects() {
 
         {/* Journal App */}
         <li className="projects__card projects__card--disabled">
-          {/* <a
-            href="https://www.wtwr.medialoverz.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="projects__card-link"
-          > */}
           <div className="projects__image-wrapper">
             <img
               className="projects__card-image"
               alt="My Growth Journal"
               src={JournalApp}
-            ></img>
+            />
           </div>
           <div className="projects__card-info">
             <h3 className="projects__card-title">
@@ -163,10 +190,9 @@ function Projects() {
             <p className="projects__card-description">
               A digital journaling tool with guided prompts for reflection and
               self-growth. Entries are saved locally for privacy. Designed for
-              focus, mindfulness, and a clutter-free writing experience.{" "}
+              focus, mindfulness, and a clutter-free writing experience.
             </p>
           </div>
-          {/* </a> */}
         </li>
       </ul>
     </section>
